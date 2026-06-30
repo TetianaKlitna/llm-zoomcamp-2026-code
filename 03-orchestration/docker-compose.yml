@@ -39,8 +39,8 @@ services:
           postgres:
             url: jdbc:postgresql://kestra_postgres:5432/kestra
             driverClassName: org.postgresql.Driver
-            username: ${POSTGRES_USER}
-            password: ${POSTGRES_PASSWORD}
+            username: kestra
+            password: k3str4
         kestra:
           server:
             basicAuth:
@@ -62,7 +62,7 @@ services:
             type: gemini
             gemini:
               model-name: gemini-2.5-flash
-              api-key: ${GEMINI_API_KEY}
+              api-key: ${SECRET_GEMINI_API_KEY}
     ports:
       - "8080:8080"
       - "8081:8081"
