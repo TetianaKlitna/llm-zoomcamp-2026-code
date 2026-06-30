@@ -1,0 +1,5 @@
+Question 1: Context Engineering
+Q: After trying the same prompt in ChatGPT vs Kestra's AI Copilot, what is the primary reason AI Copilot generates better Kestra flows?
+A: AI Copilot has access to current Kestra plugin documentation
+
+Question 2: RAG vs No RAG
