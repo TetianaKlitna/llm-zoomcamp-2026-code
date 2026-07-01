@@ -25,3 +25,9 @@ from asking for exactly 1 sentence to asking for exactly 3 sentences.
 Save the flow, then run it with summary_length = long.
 Compare the english_brevity output token count to the original 1-sentence version (also with summary_length = long).
 Q: How do they compare?
+A: 2-4x more
+
+Question 6: Best Practices Based on what you learned in this module, for production workflows requiring deterministic, 
+repeatable results with strict compliance requirements (e.g., financial reporting, workflows in highly regulated industries), 
+Q: which approach is most appropriate?
+A: Use traditional task-based workflows for predictability and auditability
