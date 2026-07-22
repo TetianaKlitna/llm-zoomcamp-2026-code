@@ -14,6 +14,12 @@ postgres:
     -p 5432:5432 \
     -v pgdata:/var/lib/postgresql/data \
     postgres:17
-
 query:
 	uv run python db_query.py
+start:
+	docker start course-assistant-pg
+stop:
+	docker stop course-assistant-pg
+
+
+# dashboard streamlit: uv run streamlit run dashboard.py --server.port 8502
